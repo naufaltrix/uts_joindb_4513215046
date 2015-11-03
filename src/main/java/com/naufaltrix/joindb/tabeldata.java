@@ -129,25 +129,16 @@ public class tabeldata extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jButton1 = new javax.swing.JButton();
-        jTabbedPane1 = new javax.swing.JTabbedPane();
         jScrollPane1 = new javax.swing.JScrollPane();
         tabel1 = new javax.swing.JTable();
+        jButton1 = new javax.swing.JButton();
+        jTabbedPane1 = new javax.swing.JTabbedPane();
         jScrollPane2 = new javax.swing.JScrollPane();
         tabel2 = new javax.swing.JTable();
         jScrollPane3 = new javax.swing.JScrollPane();
         tabel3 = new javax.swing.JTable();
         jScrollPane4 = new javax.swing.JScrollPane();
         tabel4 = new javax.swing.JTable();
-
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
-        jButton1.setText("Tampil Semua Data");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
 
         tabel1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -162,7 +153,14 @@ public class tabeldata extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(tabel1);
 
-        jTabbedPane1.addTab("Biodata", jScrollPane1);
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jButton1.setText("Tampil Semua Data");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         tabel2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
