@@ -36,19 +36,21 @@ nyalakan xampp untuk localhost server dengan ketik di terminal /opt/lamp/lamp st
 5. Setelah buka, buat database baru dengan nama universitas dengan klik menu database seperti gambar dibawah ini.
 ![Figure 0.1](images/Gambar6.png)
 
-Setelah selesai langsung klik tombol create, dan hasilnya akan seperti gambar dibawah ini.
+6. Setelah selesai langsung klik tombol create, dan hasilnya akan seperti gambar dibawah ini.
 ![Figure 0.1](images/Gambar7.png)
 
-6. Setelah semua tercreate, langkah selanjutnya adalah import file dump unversitas.sql didalam folder yang di ekstrak, seperti
+7. Setelah semua tercreate, langkah selanjutnya adalah import file dump unversitas.sql didalam folder yang di ekstrak, seperti
 pada gambar dibawah ini.
 ![Figure 0.1](images/Gambar8.png)
 
-7. Setelah di klik untuk di buat database baru maka hasilnya akan seperti pada gambar dibawah ini.
+8. Setelah di klik untuk di buat database baru maka hasilnya akan seperti pada gambar dibawah ini.
 ![Figure 0.1](images/Gambar9.png) maka bisa dilihat strukturnya akan seperti pada gambar dibawah ini. ![Figure 0.1](images/Gambar10.png)
 
 
-8. Selesai
+9. Selesai
 
 Untuk step pertama telah selesai melakukan download dan juga melakukan ekstrak data serta membuat database pada local server
 di Phpmyadmin dengan xampp.
+
+## Step 2 (Menjalankan Program di Terminal Ubuntu)
 
