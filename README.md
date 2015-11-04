@@ -28,9 +28,7 @@ bisa dilihat pada gambar dibawah ini.
 
 3. Setelah download extract folder zip, lalu masukan dump universitas.sql ke database local phpmyadmin dengan buka terminal lalu
 nyalakan xampp untuk localhost server dengan ketik di terminal /opt/lamp/lamp start.
-![Figure 0.1](images/Gambar4.png)
-
-Dan kalau di windows nyalakan seperti biasa dengan mengkil xampp lalu nayalakan server local.
+![Figure 0.1](images/Gambar4.png) Dan kalau di windows nyalakan seperti biasa dengan mengkil xampp lalu nayalakan server local.
 
 4. Buka browser lalu ketik pada url : localhost/phpmyadmin dan akan terlihat dashboard pada gambar dibawah ini.
 ![Figure 0.1](images/Gambar5.png)
@@ -46,10 +44,7 @@ pada gambar dibawah ini.
 ![Figure 0.1](images/Gambar8.png)
 
 7. Setelah di klik untuk di buat database baru maka hasilnya akan seperti pada gambar dibawah ini.
-![Figure 0.1](images/Gambar9.png)
-
-maka bisa dilihat strukturnya akan seperti pada gambar dibawah ini.
-![Figure 0.1](images/Gambar10.png)
+![Figure 0.1](images/Gambar9.png) maka bisa dilihat strukturnya akan seperti pada gambar dibawah ini. ![Figure 0.1](images/Gambar10.png)
 
 
 8. Selesai
