@@ -2,74 +2,69 @@
 
 ## Pendahuluan
 
-Aplikasi ini adalah aplikasi yang berdasarkan bahasa pemrograman java, dengan menggunakan java aplication,
-atau bisa disebut juga java swing. Disini akan dijelaskan tutorial yang difungsikan untuk melakukan tracking
-atau pengambilan data universitas yang telah dibikin di database dengan menggunakan JDBC MySql.
+Aplikasi ini adalah aplikasi yang berbasis bahasa pemrograman Java, dengan menggunakan *Java Application*,
+atau bisa disebut juga *Java Swing*. Di sini akan dijelaskan tutorial yang difungsikan untuk melakukan pengambilan data universitas yang telah dibuat di database dengan menggunakan [JDBC MySql](dev.mysql.com/downloads/connector/j/).
 
 Kira-kira hasil dari tutorial ini akan seperti pada gambar dibawah ini.
 ![Figure 0.1](images/Gambar1.png)
 
-Untuk penjelasan tutorial dari awal hingga akhir, dapat dilihat dibawah ini:
+Berikut dijelaskan tutorial instalasi secara step-by-step.
 
 ## Tutorial Aplikasi
 
-Untuk tutorial kali ini akan dibagi menjadi beberapa part dari awal hingga akhir. Semoga dapat dimengerti dan juga aplikasi
-dapat dijalankan dengan berhasil dan juga dapat berguna.
+Untuk tutorial kali ini akan dibagi menjadi beberapa *part* dari awal hingga akhir. Semoga mudah dimengerti dan aplikasi
+bisa dijalankan dengan benar sehingga dapat berguna.
 
-## Step 1 (Download Projek & Buat Database)
+## Step-1 (Download Projek & Buat Database)
 
-1. Masuk ke URL github https://github.com/naufaltrix/uts_joindb_4513215046 dan anda akan masuk ke dashboard seperti
-gambar dibawah ini.
+1. Masuk ke repositori yang telah saya buat di github: https://github.com/naufaltrix/uts_joindb_4513215046
+dan anda akan masuk ke halaman sebuah *GitHub-Repo* seperti gambar dibawah ini.
 ![Figure 0.1](images/Gambar2.png)
 
-2. Setelah masuk menu dan melihat tampilan diatas, lalu selanjutnya adalah download zip folder pada github di menu kiri dan
-bisa dilihat pada gambar dibawah ini.
+2. Setelah masuk dan melihat tampilan repositori di atas, selanjutnya adalah *download zip folder* yang ada di sidebar kanan.
 ![Figure 0.1](images/Gambar3.png)
 
-3. Setelah download extract folder zip, lalu masukan dump universitas.sql ke database local phpmyadmin dengan buka terminal lalu
-nyalakan xampp untuk localhost server dengan ketik di terminal /opt/lamp/lamp start.
-![Figure 0.1](images/Gambar4.png) Dan kalau di windows nyalakan seperti biasa dengan mengkil xampp lalu nayalakan server local.
+3. Setelah selesai di-download, lakukan *extract* pada folder zip tersebut. lalu masukan dump file mysql **universitas.sql** ke *database* lokal *phpmyadmin* pada komputer anda dengan membuka terminal lalu aktifkan [xampp](https://www.apachefriends.org/download.html) sebagai *database local server* dan *compiler* dengan ketik di terminal: `/opt/lamp/lamp start`
+![Figure 0.1](images/Gambar4.png) Catatan: jika anda menggunakan Windows, buka seperti biasa program XAMPP lalu aktifkan modul *Apache* dan *MySQL*.
 
-4. Buka browser lalu ketik pada url : localhost/phpmyadmin dan akan terlihat dashboard pada gambar dibawah ini.
+4. Buka browser lalu ketik pada *addressbar*: `localhost/phpmyadmin` dan akan terlihat tampilan pada gambar dibawah ini.
 ![Figure 0.1](images/Gambar5.png)
 
-5. Setelah buka, buat database baru dengan nama universitas dengan klik menu database seperti gambar dibawah ini.
+5. Setelah itu, buat database baru dengan nama **universitas** dengan klik menu *database* seperti gambar dibawah ini.
 ![Figure 0.1](images/Gambar6.png)
 
-6. Setelah selesai langsung klik tombol create, dan hasilnya akan seperti gambar dibawah ini.
+6. Setelah selesai, klik tombol **create** dan hasilnya akan seperti gambar dibawah ini.
 ![Figure 0.1](images/Gambar7.png)
 
-7. Setelah semua tercreate, langkah selanjutnya adalah import file dump unversitas.sql didalam folder yang di ekstrak, seperti
-pada gambar dibawah ini.
+7. Setelah database selesai dibuat, langkah selanjutnya adalah *import dump file* **unversitas.sql** yang ada di dalam folder yang telah diekstrak, seperti pada gambar dibawah ini.
 ![Figure 0.1](images/Gambar8.png)
 
-8. Setelah di klik untuk di buat database baru maka hasilnya akan seperti pada gambar dibawah ini.
+8. Setelah dipilih file **unversitas.sql**, terakhir klik `GO` untuk kemudian database dapat di-*import*.
 ![Figure 0.1](images/Gambar9.png) maka bisa dilihat strukturnya akan seperti pada gambar dibawah ini. ![Figure 0.1](images/Gambar10.png)
 
 
 9. Selesai
 
-Untuk step pertama telah selesai melakukan download dan juga melakukan ekstrak data serta membuat database pada local server
-di Phpmyadmin dengan xampp.
+Untuk step pertama, sampai saat ini kita sudah selesai melakukan download dan juga melakukan ekstrak data serta membuat database pada server
+lokal di PhpMyadmin dengan XAMPP.
 
-## Step 2 (Menjalankan Program di Netbeans)
+## Step-2 (Menjalankan Program di Netbeans)
 
-Disini akan dijelaskan untuk step 2 yaitu menjalankan projek yang telah didownload dari repository github, untuk kelengkapannya
-dapat diikuti step dari awal hingga akhir, dan semoga user dapat mengerti dan juga paham untuk menjalankan aplikasi yang sudah dibuat.
+Disini akan dijelaskan untuk step-2 yaitu menjalankan projek yang telah di-*download* dari repositori GitHub, dengan mengikuti step-2 ini dari awal hingga akhir, diharapkan user dapat mengerti dan juga paham untuk bisa menjalankan aplikasi yang sudah dibuat.
 
-1. Langkah yang pertama adalah buka aplikasi netbeans pada komputer / laptop yang telah disediakan, dan dashboardnya dapat dilihat seperti gambar dibawah ini.
+1. Langkah pertama adalah buka aplikasi [Netbeans](https://netbeans.org/downloads/) pada komputer anda. (Di sini saya asumsikan bahwa user telah menginstall Netbeans).
 ![Figure 0.1](images/Gambar11.png)
 
 
-2. Buka *File->Open Project* maka akan muncul seperti pada gambar dibawah ini
+2. Klik *File -> Open Project* maka akan muncul sebuah *window* seperti pada gambar dibawah ini.
 ![Figure 0.1](images/Gambar12.png)
 
-3. Setelah projeknya tampil maka langkah selanjutnya adalah dengan menekan tombol *F6* atau tekan tombol run pada netbeans untuk melakukan runing program, dan hasilnya akan terlihat seperti pada gambar dibawah ini.
+3. Setelah projeknya tampil, maka langkah selanjutnya adalah tekan tombol **F6** atau tekan tombol *Run* pada Netbeans untuk melakukan *running program*, dan hasilnya akan terlihat seperti pada gambar dibawah ini.
 ![Figure 0.1](images/Gambar13.png)
 
 ## Step 3 (Cek Database di Server)
 
-Data pada aplikasi sudah sesuai dengan data pada server dengan masuk ke url http://trina.hol.es/ dan akan terlihat hasilnya seperti pada gambar dibawah ini.
+Data pada aplikasi sudah sesuai dengan data pada server dengan masuk ke url `http://trina.hol.es/` dan akan terlihat hasilnya seperti pada gambar dibawah ini.
 ![Figure 0.1](images/Gambar14.png)
 
 
