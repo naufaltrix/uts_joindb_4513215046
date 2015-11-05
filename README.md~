@@ -52,5 +52,18 @@ pada gambar dibawah ini.
 Untuk step pertama telah selesai melakukan download dan juga melakukan ekstrak data serta membuat database pada local server
 di Phpmyadmin dengan xampp.
 
-## Step 2 (Menjalankan Program di Terminal Ubuntu)
+## Step 2 (Menjalankan Program di Netbeans)
+
+Disini akan dijelaskan untuk step 2 yaitu menjalankan projek yang telah didownload dari repository github, untuk kelengkapannya
+dapat diikuti step dari awal hingga akhir, dan semoga user dapat mengerti dan juga paham untuk menjalankan aplikasi yang sudah dibuat.
+
+1. Langkah yang pertama adalah buka aplikasi netbeans pada komputer / laptop yang telah disediakan, dan dashboardnya dapat dilihat seperti gambar dibawah ini.
+![Figure 0.1](images/Gambar11.png)
+
+
+2. Buka *File->Open Project* maka akan muncul seperti pada gambar dibawah ini
+![Figure 0.1](images/Gambar12.png)
+
+3. 
+
 
