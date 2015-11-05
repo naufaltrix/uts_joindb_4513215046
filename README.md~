@@ -64,6 +64,13 @@ dapat diikuti step dari awal hingga akhir, dan semoga user dapat mengerti dan ju
 2. Buka *File->Open Project* maka akan muncul seperti pada gambar dibawah ini
 ![Figure 0.1](images/Gambar12.png)
 
-3. 
+3. Setelah projeknya tampil maka langkah selanjutnya adalah dengan menekan tombol *F6* atau tekan tombol run pada netbeans untuk melakukan runing program, dan hasilnya akan terlihat seperti pada gambar dibawah ini.
+![Figure 0.1](images/Gambar13.png)
+
+## Step 3 (Cek Database di Server)
+
+Data pada aplikasi sudah sesuai dengan data pada server dengan masuk ke url http://trina.hol.es/ dan akan terlihat hasilnya seperti pada gambar dibawah ini.
+![Figure 0.1](images/Gambar14.png)
+
 
 
